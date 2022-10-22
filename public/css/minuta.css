@@ -1,0 +1,44 @@
+.fila{
+    justify-content: space-between;
+}
+
+tbody{
+    /*display: grid;*/
+    grid-template-columns: 100%;
+    width: 100%;
+}
+
+.fila td{
+    width: 100%;
+    left: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.title{
+    text-align: center;
+    color: #3498db;
+    font-size: 25px;
+}
+
+.panel{
+    border-radius: 6px;
+    border: solid #3498db 6px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    background: rgb(248, 248, 248);
+}
+
+.panel-body{
+    padding: 10px;
+}
+
+.content-header{
+    margin-bottom: 30px;
+}
+
+.fila .texto{
+    font-size: 18px;
+    width: 1900px;
+}
